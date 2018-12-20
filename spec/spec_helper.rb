@@ -1,4 +1,9 @@
 require "bundler/setup"
+
+
+require "simplecov"
+SimpleCov.start 'test_frameworks'
+
 require "epg_xml"
 
 RSpec.configure do |config|
